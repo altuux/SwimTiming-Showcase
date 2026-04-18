@@ -1,13 +1,14 @@
 # SwimTiming-Showcase
 
-A showcase repository of my SaaS product which is consisting of two private repos. SwimTiming and SwimTiming-WebClient.
+A showcase repository of my SaaS product which is consisting of two private repos. SwimTiming, SwimTimingBot and SwimTiming-WebClient.
 
 ## Architecture and Tech Stack
 
 The project consists of three main components:
 1. **Smart Agent (Backend/Local):** A Python script running locally on the timing system PC. It monitors file changes, parses the data, and pushes it to the cloud.
-2. **Cloud (Database):** Firebase Realtime Database for instant data synchronization between the agent and the end-users.
-3. **Frontend (Viewer Web & Admin):** Built with Vanilla JavaScript, HTML, and CSS. Deployed on Firebase Hosting. Includes an Admin Dashboard for controlling premium features like sponsor pools and custom color themes.
+2. **Discord Bot:** A dashboard made for easy control of any Smart Agent process running anywhere. It monitors them, logging (offline - online) and syncs with the cloud.
+3. **Cloud (Database):** Firebase Realtime Database for instant data synchronization between the agent and the end-users.
+4. **Frontend (Viewer Web & Admin):** Built with Vanilla JavaScript, HTML, and CSS. Deployed on Firebase Hosting. Includes an Admin Dashboard for controlling premium features like sponsor pools and custom color themes.
 
 ## How to order:
 Currently the project is **IW and im beta testing**, if you want to contact me about something: **aourednik203@gmail.com**
